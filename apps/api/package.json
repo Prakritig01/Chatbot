@@ -1,0 +1,20 @@
+{
+  "name": "@aikb/api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Express + TypeScript API for the AI Knowledge Base",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -b",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@aikb/config": "*",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "tsx": "^4.19.0"
+  }
+}

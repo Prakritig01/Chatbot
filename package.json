@@ -1,0 +1,37 @@
+{
+  "name": "ai-knowledge-base",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RAG-based AI Knowledge Base over uploaded files — portfolio project (backend, AI, DevOps)",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "tsc -b --clean",
+    "typecheck": "tsc -b",
+    "dev": "npm run dev --workspaces --if-present",
+    "start": "npm run start --workspaces --if-present"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prakritig01/Chatbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Prakritig01/Chatbot/issues"
+  },
+  "homepage": "https://github.com/Prakritig01/Chatbot#readme",
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
